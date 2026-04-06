@@ -2,3 +2,16 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Data (avoid pushing large NEON files)
+data_raw/
+data_processed/
+
+# Outputs
+outputs/
+
+# Common formats
+*.csv
+*.rds
+*.tif
+*.zip
